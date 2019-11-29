@@ -578,8 +578,14 @@ body {
       display: none; }
     .intro--banner h1 {
       margin-top: 0; }
-  .intro--options {
-    display: none; } }
+  .intro--options h1 {
+    display: grid;
+    line-height: 3vw;
+    margin-top: 50px;}
+  .intro--options p{
+    display: none;
+  }
+   }
 .work {
   position: relative;
   display: flex;
